@@ -8,4 +8,12 @@
 3. Add the express library to the project `npm install express`
 4. Reference index.js file and run it `node index.js`
 5. Reference middle.js file and run it `node middle.js`
-6. 
+
+### IN POSTMAN
+Ticket to Variable in Test tab 
+  ` var jsonData = JSON.parse(responseBody);
+    postman.setEnvironmentVariable("CSRFtoken", jsonData.data.CSRFPreventionToken);
+    postman.setEnvironmentVariable("ticket", jsonData.data.ticket);`
+
+
+
