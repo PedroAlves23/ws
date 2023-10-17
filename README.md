@@ -10,7 +10,8 @@
 5. Reference middle.js file and run it `node middle.js`
 
 ### IN POSTMAN
-Ticket to Variable in Test tab.
+Ticket to Variable in Test tab. 
+
 POST [https://10.2.4.30:8006/api2/json/access/ticket](https://10.2.4.30:8006/api2/json/access/ticket)
 *params:
  * username : {{username}}
