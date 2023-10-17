@@ -11,7 +11,7 @@
 
 ### IN POSTMAN
 Ticket to Variable in Test tab  
-  ` var jsonData = JSON.parse(responseBody);postman.setEnvironmentVariable("CSRFtoken", jsonData.data.CSRFPreventionToken);postman.setEnvironmentVariable("ticket", jsonData.data.ticket);`
+  ` var jsonData = JSON.parse(responseBody); postman.setEnvironmentVariable("CSRFtoken", jsonData.data.CSRFPreventionToken); postman.setEnvironmentVariable("ticket", jsonData.data.ticket);`
 
 
 
