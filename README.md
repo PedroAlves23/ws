@@ -10,6 +10,9 @@
 5. Reference middle.js file and run it `node middle.js`
 
 ### IN POSTMAN
+
+[Proxmos VE API Documentation](https://pve.proxmox.com/pve-docs/api-viewer/)
+
 Ticket to Variable in Test tab. 
 
 POST [https://10.2.4.30:8006/api2/json/access/ticket](https://10.2.4.30:8006/api2/json/access/ticket)
@@ -23,9 +26,10 @@ POST [https://10.2.4.30:8006/api2/json/access/ticket](https://10.2.4.30:8006/api
  
  `CSRFPreventionToken` | `{{CSRFtoken}}           ` 
 
+
 get LXC Machine list
 
-
+GET [https://10.2.4.30:8006/api2/json/cluster/nextid](https://10.2.4.30:8006/api2/json/cluster/nextid)
 
 nextId
 `var jsonData = JSON.parse(responseBody);
