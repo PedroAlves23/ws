@@ -17,7 +17,7 @@ Ticket to Variable in Test tab
 
  `Cookie             ` | `PVEAuthCookie={{ticket}}`
  
- `CSRFPreventionToken` | `{{CSRFtoken}}           ` 
+ `CSRFPreventionToken` | `{{CSRFtoken}}           ` . 
 get LXC Machine list
 
 
