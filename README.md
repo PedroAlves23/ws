@@ -13,7 +13,7 @@
 Ticket to Variable in Test tab. 
 
 POST [https://10.2.4.30:8006/api2/json/access/ticket](https://10.2.4.30:8006/api2/json/access/ticket)
-*params:
+* params:
  * username : {{username}}
  * password : {{NiumaPass}}
 
