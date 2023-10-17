@@ -20,7 +20,8 @@ POST [https://10.2.4.30:8006/api2/json/access/ticket](https://10.2.4.30:8006/api
 
  `Cookie             ` | `PVEAuthCookie={{ticket}}`
  
- `CSRFPreventionToken` | `{{CSRFtoken}}           ` . 
+ `CSRFPreventionToken` | `{{CSRFtoken}}           ` 
+
 get LXC Machine list
 
 
