@@ -12,6 +12,8 @@
 ### IN POSTMAN
 [Dummy API](https://dummyjson.com/docs/products)
 
+[Dummy API Auth](https://dummyjson.com/docs/auth)
+
 [Proxmos VE API Documentation](https://pve.proxmox.com/pve-docs/api-viewer/)
 
 Ticket to Variable in Test tab. 
