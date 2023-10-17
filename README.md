@@ -29,9 +29,14 @@ POST [https://10.2.4.30:8006/api2/json/access/ticket](https://10.2.4.30:8006/api
 
 get LXC Machine list
 
-GET [https://10.2.4.30:8006/api2/json/cluster/nextid](https://10.2.4.30:8006/api2/json/cluster/nextid)
+GET [https://10.2.4.30:8006/api2/json/nodes/phoenix/lxc](https://10.2.4.30:8006/api2/json/nodes/phoenix/lxc)
+
+
 
 nextId
+
+GET [https://10.2.4.30:8006/api2/json/cluster/nextid](https://10.2.4.30:8006/api2/json/cluster/nextid)
+
 `var jsonData = JSON.parse(responseBody);
 postman.setEnvironmentVariable("data", jsonData.data.CSRFPreventionToken);`
 
