@@ -4,4 +4,6 @@
 
 ### IN VS CODE
 
-    `npm init -y`
+Create a NodeJS project in a folder `npm init -y`
+Add the express library to the project `npm install express`
+* reference index.js file
