@@ -13,8 +13,8 @@
 Ticket to Variable in Test tab  
   ` var jsonData = JSON.parse(responseBody); postman.setEnvironmentVariable("CSRFtoken", jsonData.data.CSRFPreventionToken); postman.setEnvironmentVariable("ticket", jsonData.data.ticket);`
 
-| `Cookie             ` | `PVEAuthCookie={{ticket}}` |
-| `CSRFPreventionToken` | `{{CSRFtoken}}           ` |
+ `Cookie             ` | `PVEAuthCookie={{ticket}}` 
+ `CSRFPreventionToken` | `{{CSRFtoken}}           ` 
 
 
 nextId
