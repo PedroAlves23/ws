@@ -10,6 +10,7 @@
 5. Reference middle.js file and run it `node middle.js`
 
 ### IN POSTMAN
+[Dummy API](https://dummyjson.com/docs/products)
 
 [Proxmos VE API Documentation](https://pve.proxmox.com/pve-docs/api-viewer/)
 
