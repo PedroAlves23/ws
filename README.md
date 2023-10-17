@@ -11,7 +11,10 @@
 
 ### IN POSTMAN
 Ticket to Variable in Test tab
-[https://10.2.4.30:8006/api2/json/access/ticket](https://10.2.4.30:8006/api2/json/access/ticket).
+POsT [https://10.2.4.30:8006/api2/json/access/ticket](https://10.2.4.30:8006/api2/json/access/ticket).
+params:.
+ username : {{username}}
+ password : {{NiumaPass}}
 
  ` var jsonData = JSON.parse(responseBody); postman.setEnvironmentVariable("CSRFtoken", jsonData.data.CSRFPreventionToken); postman.setEnvironmentVariable("ticket", jsonData.data.ticket);`
 
